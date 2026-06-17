@@ -28,7 +28,7 @@ jobs:
           channel: stable
 
       - run: flutter pub get
-      - run: flutter build web --release --base-href /vitalink_ip_lab/
+      - run: flutter build web --release --base-href /Vitalink/
 
       - uses: actions/upload-pages-artifact@v3
         with:
